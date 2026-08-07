@@ -48,24 +48,18 @@ BM25、TF-IDF、Vector Search、Reciprocal Rank Fusion（RRF）、Learning to Ra
 
 ## システム構成
 
-```text
-PDF
- ↓
-テキスト抽出
- ↓
-日本語前処理
- ↓
- ┌─────────────┐
- │ BM25        │
- │ TF-IDF      │
- │ Vector      │
- └─────────────┘
-      ↓
-  Hybrid / RRF
-      ↓
-Learning to Rank
-      ↓
-検索結果表示（Streamlit）
+```mermaid
+flowchart TD
+    A[PDF] --> B[テキスト抽出]
+    B --> C[日本語前処理]
+    C --> D[BM25]
+    C --> E[TF-IDF]
+    C --> F[Vector Search]
+    D --> G[Hybrid / RRF]
+    E --> G
+    F --> G
+    G --> H[Learning to Rank]
+    H --> I[検索結果表示（Streamlit）]
 ```
 
 
