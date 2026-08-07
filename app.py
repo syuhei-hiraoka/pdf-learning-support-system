@@ -10,7 +10,7 @@ from resources import (
 )
 from search import search_all
 from result import make_search_results
-from display import (
+from result_display import (
     show_uploaded_files,
     show_query,
     show_elapsed_time,

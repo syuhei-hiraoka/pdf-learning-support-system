@@ -119,87 +119,87 @@ test_queries = [
     ),
     Query(
         words=["著作権"],
-        answers=["ai_guideline.pdf"],
+        answers=["sample_ai_guideline.pdf"],
     ),
     Query(
         words=["個人情報"],
-        answers=["ai_guideline.pdf"],
+        answers=["sample_ai_guideline.pdf"],
     ),
     Query(
         words=["禁止事項"],
-        answers=["ai_guideline.pdf"],
+        answers=["sample_ai_guideline.pdf"],
     ),
     Query(
         words=["教育情報課"],
-        answers=["ai_guideline.pdf"],
+        answers=["sample_ai_guideline.pdf"],
     ),
     Query(
         words=["成績評価"],
-        answers=["ai_guideline.pdf"],
+        answers=["sample_ai_guideline.pdf"],
     ),
     Query(
         words=["ディープラーニング"],
-        answers=["G検定紹介資料_202606.pdf"],
+        answers=["sample_exam.pdf"],
     ),
     Query(
         words=["エコシステム"],
-        answers=["G検定紹介資料_202606.pdf"],
+        answers=["sample_exam.pdf"],
     ),
     Query(
         words=["JDLA"],
-        answers=["G検定紹介資料_202606.pdf"],
+        answers=["sample_exam.pdf"],
     ),
     Query(
         words=["AI人材"],
-        answers=["G検定紹介資料_202606.pdf"],
+        answers=["sample_exam.pdf"],
     ),
     Query(
         words=["活用リテラシー"],
-        answers=["G検定紹介資料_202606.pdf"],
+        answers=["sample_exam.pdf"],
     ),
     Query(
         words=["AI倫理"],
-        answers=["G検定紹介資料_202606.pdf"],
+        answers=["sample_exam.pdf"],
     ),
     Query(
         words=["生成AI"],
-        answers=["G検定紹介資料_202606.pdf"],
+        answers=["sample_exam.pdf"],
     ),    
     Query(
         words=["機械学習"],
-        answers=["machine_learning.pdf"],
+        answers=["sample_ml.pdf"],
     ),
     Query(
         words=["データ分析"],
-        answers=["machine_learning.pdf"],
+        answers=["sample_ml.pdf"],
     ),
     Query(
         words=["正則化"],
-        answers=["machine_learning.pdf"],
+        answers=["sample_ml.pdf"],
     ),
     Query(
         words=["経験","学習"],
-        answers=["machine_learning.pdf"],
+        answers=["sample_ml.pdf"],
     ),
     Query(
         words=["訓練データ"],
-        answers=["machine_learning.pdf"],
+        answers=["sample_ml.pdf"],
     ),
     Query(
         words=["強化学習"],
-        answers=["machine_learning.pdf"],
+        answers=["sample_ml.pdf"],
     ),
     Query(
         words=["回帰"],
-        answers=["machine_learning.pdf"],
+        answers=["sample_ml.pdf"],
     ),
     Query(
         words=["分類"],
-        answers=["machine_learning.pdf"],
+        answers=["sample_ml.pdf"],
     ),
     Query(
         words=["損失関数"],
-        answers=["machine_learning.pdf"],
+        answers=["sample_ml.pdf"],
     ),
     Query(
         words=["行政法人"],
@@ -215,47 +215,47 @@ test_queries = [
     ),
     Query(
         words=["AI", "ルール"],
-        answers=["ai_guideline.pdf"],
+        answers=["sample_ai_guideline.pdf"],
     ),
     Query(
         words=["AI", "利用"],
-        answers=["ai_guideline.pdf"],
+        answers=["sample_ai_guideline.pdf"],
     ),
     Query(
         words=["学生", "AI"],
-        answers=["ai_guideline.pdf"],
+        answers=["sample_ai_guideline.pdf"],
     ),
     Query(
         words=["AI", "禁止"],
-        answers=["ai_guideline.pdf"],
+        answers=["sample_ai_guideline.pdf"],
     ),
     Query(
         words=["盗作"],
-        answers=["ai_guideline.pdf"],
+        answers=["sample_ai_guideline.pdf"],
     ),
     Query(
         words=["カテゴリ値"],
-        answers=["machine_learning.pdf"],
+        answers=["sample_ml.pdf"],
     ),
     Query(
         words=["離散値"],
-        answers=["machine_learning.pdf"],
+        answers=["sample_ml.pdf"],
     ),
     Query(
         words=["学生作品"],
-        answers=["ai_guideline.pdf"],
+        answers=["sample_ai_guideline.pdf"],
     ),
     Query(
         words=["レポート"],
-        answers=["ai_guideline.pdf"],
+        answers=["sample_ai_guideline.pdf"],
     ),
     Query(
         words=["Chat-GPT"],
-        answers=["G検定紹介資料_202606.pdf"],
+        answers=["sample_exam.pdf"],
     ),
     Query(
         words=["ChatGPT"],
-        answers=["G検定紹介資料_202606.pdf"],
+        answers=["sample_exam.pdf"],
     ),
     Query(
         words=["元職員"],
@@ -263,11 +263,11 @@ test_queries = [
     ),
     Query(
         words=["sepal.length", "がく弁の長さ"],
-        answers=["machine_learning.pdf"],
+        answers=["sample_ml.pdf"],
     ),
     Query(
         words=["生成AI", "ChatGPT"], 
-        answers=["ai_guideline.pdf", "G検定紹介資料_202606.pdf"],
+        answers=["sample_ai_guideline.pdf", "sample_exam.pdf"],
     ),
     Query(
         words=["契約方式"],
@@ -275,7 +275,7 @@ test_queries = [
     ),
     Query(
         words=["教材", "業務文書"],
-        answers=["ai_guideline.pdf"],
+        answers=["sample_ai_guideline.pdf"],
     ),
     Query(
         words=["役員", "再就職"],
@@ -283,15 +283,15 @@ test_queries = [
     ),
     Query(
         words=["ガイドライン"],
-        answers=["G検定紹介資料_202606.pdf", "ai_guideline.pdf"],
+        answers=["sample_exam.pdf", "sample_ai_guideline.pdf"],
     ),
     Query(
         words=["ChatGPT"],
-        answers=["ai_guideline.pdf", "G検定紹介資料_202606.pdf"],
+        answers=["sample_ai_guideline.pdf", "sample_exam.pdf"],
     ),
     Query(
         words=["情報"],
-        answers=["sample.pdf", "ai_guideline.pdf", 
-                    "G検定紹介資料_202606.pdf", "machine_learning.pdf"],
+        answers=["sample.pdf", "sample_ai_guideline.pdf", 
+                    "sample_exam.pdf", "sample_ml.pdf"],
     ),
 ]
