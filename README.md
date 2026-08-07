@@ -48,7 +48,7 @@ BM25、TF-IDF、Vector Search、Reciprocal Rank Fusion（RRF）、Learning to Ra
 
 ## システム構成
 
-'''text
+```text
 PDF
  ↓
 テキスト抽出
