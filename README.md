@@ -117,9 +117,9 @@ Learning to Rank の性能
 
 StandardScaler による特徴量正規化を導入した結果、LTR モデルは以下の性能を達成しました。
 
-｜ Method ｜ MRR ｜ NDCG ｜
-｜-------｜------:｜------:｜
-｜Learning to Rank ｜ **0.898** ｜ **0.925** ｜
+| Method | MRR | NDCG |
+|-------|------:|------:|
+|Learning to Rank | **0.898** | **0.925** |
 
 LTR は BM25・TF-IDF・Vector Search のスコアを特徴量として利用し、検索順位を学習によって最適化しています。
 
