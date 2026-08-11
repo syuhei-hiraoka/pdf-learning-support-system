@@ -63,13 +63,13 @@ flowchart TD
 ```
 
 
-技術スタック
+## 技術スタック
 
-言語
+### 言語
 
 - Python
 
-ライブラリ
+### ライブラリ
 
 - Streamlit
 - scikit-learn
@@ -98,7 +98,7 @@ streamlit run app.py
 
 検索システムの性能を比較するため、複数のランキング評価指標を実装しました。
 
-使用した評価指標
+## 使用した評価指標
 
 - Recall@K
 - Precision@K
@@ -117,7 +117,7 @@ StandardScaler による特徴量正規化を導入した結果、LTR モデル�
 
 LTR は BM25・TF-IDF・Vector Search のスコアを特徴量として利用し、検索順位を学習によって最適化しています。
 
-工夫した点
+## 工夫した点
 - BM25、TF-IDF、Vector Search を独立したモジュールとして実装
 - BM25・TF-IDF・Vector Search のスコアを特徴量として統合し、Learning to Rank による順位最適化を実装
 - RRF による複数ランキングの統合
@@ -127,7 +127,7 @@ LTR は BM25・TF-IDF・Vector Search のスコアを特徴量として利用し
 - モジュール分割により保守性・拡張性を向上
 
 
-今後の改善
+## 今後の改善
 
 - SentenceTransformer を用いた高性能ベクトル検索
 - LightGBM Ranker によるランキング学習

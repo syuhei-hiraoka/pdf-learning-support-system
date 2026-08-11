@@ -7,7 +7,6 @@ from rrf_search import RRFSearch
 from bm25_vector_hybrid import BM25VectorHybrid
 from preprocess import (
     make_keyword_docs,
-    make_text_docs,
     remove_table_of_contents,
     make_bm25_docs,
 )
