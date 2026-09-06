@@ -85,18 +85,18 @@ git clone https://github.com/syuhei-hiraoka/pdf-learning-support-system.git
 cd sample_folder
 ```
 
-### 必要ライブラリのインストール
+### 2. 必要ライブラリのインストール
 
 ```bash
 pip install -r requirements.txt
 ```
 
-### 2. pythonファイルを実行
+### 3. pythonファイルを実行
 ```powershell
 python main.py
 ```
 
-### アプリ起動
+### 4. アプリ起動
 
 ```bash
 streamlit run app.py
