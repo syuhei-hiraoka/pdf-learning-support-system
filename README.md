@@ -62,9 +62,6 @@ flowchart TD
     H --> I[検索結果表示（Streamlit）]
 ```
 
-
-## 技術スタック
-
 ### 言語
 
 - Python
@@ -81,12 +78,20 @@ flowchart TD
 
 
 ## 実行方法
+### 1. リポジトリをクローン
+```powershell
+git clone https://github.com/syuhei-hiraoka/pdf-learning-support-system.git
+cd sample_folder
 
 ### 必要ライブラリのインストール
 
 ```bash
 pip install -r requirements.txt
 ```
+
+### 2. pythonファイルを実行
+```powershell
+python main.py
 
 ### アプリ起動
 
