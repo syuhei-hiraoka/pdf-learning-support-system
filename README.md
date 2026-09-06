@@ -78,10 +78,12 @@ flowchart TD
 
 
 ## 実行方法
+
 ### 1. リポジトリをクローン
 ```powershell
 git clone https://github.com/syuhei-hiraoka/pdf-learning-support-system.git
 cd sample_folder
+```
 
 ### 必要ライブラリのインストール
 
@@ -92,6 +94,7 @@ pip install -r requirements.txt
 ### 2. pythonファイルを実行
 ```powershell
 python main.py
+```
 
 ### アプリ起動
 
